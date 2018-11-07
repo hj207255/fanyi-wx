@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+.change{
+  width: 100%;
+  height: 50rpx;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  background-color: rgba(212, 195, 195, 0.541);
+  display: flex;
+  padding-left: 30rpx; 
+}
+.text-input{
+  display: flex;
+  justify-content: space-between;
+}
+.text-input textarea{
+  padding: 20rpx 0 20rpx 20rpx;
+  font-size: 30rpx;
+}
+.text-noinput{
+  height: 30rpx;
+  margin: 20rpx 20rpx;
+}
+.text-output {
+  border-top: 20rpx solid rgba(212, 195, 195, 0.541);
+  padding: 20rpx;
+}
+.text-output text{
+  font-size: 30rpx;
+}
+.icon-icon-downfill{
+  color: #8995a1
+}
+.title{
+  color: #8995a1
+}

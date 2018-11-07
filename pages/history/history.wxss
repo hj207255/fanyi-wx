@@ -1,0 +1,33 @@
+/* pages/history/history.wxml.wxss */
+.title{
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  color: #888;
+  padding-left: 25rpx;
+  margin-top:20rpx;
+}
+.history-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 120rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx; 
+  border-top: 1rpx solid #eee;
+}
+.text-q{
+  font-size: 35rpx;
+  color: #888;
+  display: flex;
+}
+.text-q .text-q1{
+  flex-grow: 2;
+}
+.text-q .text-q2{
+  font-size: 30rpx;
+  flex-grow: 1;
+}
+.text-r{
+  font-size: 35rpx;
+}

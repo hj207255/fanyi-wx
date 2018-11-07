@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container page-index">
+  <view class='change'>
+    <navigator url='/pages/change/change'>
+      <text class='title'>翻译为{{curLang.chs}}</text>
+      <text class='iconfont icon-icon-downfill'></text>
+    </navigator>
+  </view>
+  <view class='text-input'>
+    <textarea placeholder='请输入要翻译的文本' placeholder-style="color:#8995a1" bindinput='onInput'  bindblur='onConfirm' value='{{query}}'></textarea>
+    <view class='text-noinput iconfont icon-quxiao' hidden='{{hideClearIcon}}' bindtap='clear'></view>
+  </view>
+  <view class="text-output">
+    <text>译文</text>
+    <view class='result'>
+      <text hidden='{{isQuery}}'>{{result[0].dst}}</text>
+    </view>
+  </view>
+</view>

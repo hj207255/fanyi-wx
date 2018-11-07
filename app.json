@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "古月翻译",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"assets/images/home-page.png",
+        "selectedIconPath":"assets/images/home-page-s.png",
+        "text":"首页"
+      },{
+        "pagePath":"pages/history/history",
+        "iconPath": "assets/images/history.png",
+        "selectedIconPath": "assets/images/history-s.png",
+        "text":"历史"
+      }
+    ],
+    "color":"#000",
+    "selectedColor":"#000",
+    "backgroundColor":"#eee",
+    "position":"bottom"
+  }
+}

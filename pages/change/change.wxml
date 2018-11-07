@@ -1,0 +1,8 @@
+
+<view class="container page-change">
+  <view class='title'>选择语言</view>
+  <view wx:for='{{langList}}' data-chs='{{language.chs}}' data-lang='{{language.lang}}' data-index='{{language.index}}' wx:key='index' wx:for-item='language' class='langrow' hover-class='langrow-h' bindtap='onTabLang'>
+    <text>{{language.chs}}</text>
+    <text class='iconfont icon-ttpodicon' wx:if='{{index===curLang.index}}'></text>
+  </view>
+</view>

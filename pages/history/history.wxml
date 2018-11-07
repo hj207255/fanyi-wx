@@ -1,0 +1,11 @@
+<!--pages/history/history.wxml.wxml-->
+<scroll-view scroll-y class="container page-history">
+  <view class="title">翻译记录</view>
+  <view wx:for='{{history}}' wx:key='index' class='history-row' bindtap='back' data-query='{{item.query}}' data-chs='{{item.curLang.chs}}' data-lang='{{item.curLang}}'>
+    <view class='text-q'>
+      <text class='text-q1'>原文：{{item.query}}</text>
+      <text class='text-q2'>译为：{{item.curLang.chs}}</text>
+    </view>
+    <view class='text-r'>译文：{{item.result}}</view>
+  </view>
+</scroll-view>

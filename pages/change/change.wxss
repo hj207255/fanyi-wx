@@ -1,0 +1,22 @@
+.title{
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 20rpx;
+  color: #888;
+  padding-left: 25rpx;
+}
+.langrow{
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx; 
+  border-top: 1rpx solid #eee;
+}
+.langrow-h{
+  background-color: #eee;
+}
+.iconfont{
+  font-size: 40rpx;
+}
